@@ -1,0 +1,105 @@
+.jumbotron{
+    background-color:lightskyblue;
+    background-image: url("C:/Users/HI/OneDrive/Desktop/text_summary/templates/image1.jpg");
+    background-size: cover;
+    padding: 40px;
+    border-radius: 10px;
+    color:black;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+.original_title{
+    background-color:seagreen;
+    font-size:20px;
+    font-weight: bold;
+    padding: 2px;
+    justify-content:center;
+    display:flex;
+    text-align:center ;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.summary_title{
+    background-color:seagreen;
+    font-size:20px;
+    font-weight: bold;
+    padding: 2px;
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.srt{
+    display:flex;
+    flex-direction: row; /* Items will be laid out horizontally in a row */
+    justify-content: space-between;
+}
+
+.originalTxt
+{
+    
+    padding:20px;
+    flex: 1; /* Grow to fill available space */
+    background-color: rgb(215, 250, 241);
+    margin: 20px; /* Increase the margin for more space between paragraphs */
+    max-width: 48%;
+}
+.summaryTxt
+{
+   
+    padding:20px;
+    flex: 1; /* Grow to fill available space */
+    margin: 20px; /* Increase the margin for more space between paragraphs */
+    max-width: 48%;
+    background-color:rgb(189, 199, 198);
+    
+}
+.container-alt-quill h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.container-alt-quill .row {
+    margin-top: 20px;
+}
+.container-alt-quill .box-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.container-alt-quill .box {
+    flex: 1;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box1 {
+    background: linear-gradient(135deg, rgb(20, 157, 125), rgb(9, 97, 76));
+    -webkit-text-fill-color:black; /* Hide the original text color */
+    -webkit-text-stroke-width: 1px;
+}
+.box2 {
+    -webkit-text-fill-color:black; /* Hide the original text color */
+    -webkit-text-stroke-width: 1px;
+    
+    background: linear-gradient(135deg, rgb(20, 120, 125), rgb(9, 97, 76));
+
+}
+.container-alt-quill .box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(152, 64, 64, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.8s ease;
+}
