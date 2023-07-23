@@ -7,16 +7,16 @@ index.html
 summary.html
 styles.css
 
-##Software required
+## Software required
 Python
 Flask
 VisualStudioCode
-##Front end 
+## Front end 
 -HTML
 -CSS
 -Js
-##Backend
+## Backend
 -Flask
 -Python
-##core technology used:
+## core technology used:
 -NLP with Spacy Library
