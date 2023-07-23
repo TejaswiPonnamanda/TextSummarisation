@@ -1,5 +1,5 @@
 # TextSummarisation
-A website designed for text summarization using NLP
+A website designed for text summarization using NLP.
 To create a text summarizer using the spaCy NLP library, we will use the spaCy library along with some additional text processing techniques.
 This project code will extract the top-ranked sentences based on the Named Entity Recognition (NER) algorithm and produce a summary containing the specified number of sentences. The text_summarizer function takes the input text and returns the summary. 
 ## Workflows
