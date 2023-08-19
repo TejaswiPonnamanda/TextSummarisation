@@ -1,3 +1,7 @@
+
+
+https://github.com/TejaswiPonnamanda/TextSummarisation/assets/121274581/09bf0a68-065f-4d1d-b89d-9ba857dedde5
+
 # TextSummarisation
 A website designed for text summarization using NLP.
 To create a text summarizer using the spaCy NLP library, we will use the spaCy library along with some additional text processing techniques.
